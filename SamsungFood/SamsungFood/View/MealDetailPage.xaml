@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SamsungFood.View.MealDetailPage"
+             Title="MealDetailPage">
+    <StackLayout Padding="10">
+        <Label Text="Meal Details" FontSize="24" HorizontalOptions="Center"/>
+        <Image Source="meal_placeholder.jpg" HeightRequest="200" WidthRequest="200"/>
+        <Label Text="Meal Name" FontSize="20" FontAttributes="Bold"/>
+        <Label Text="Meal Description goes here..." FontSize="16"/>
+        <Button Text="Back"  />
+    </StackLayout>
+</ContentPage>
